@@ -1,0 +1,21 @@
+﻿<Window x:Class="RuthlessMerchantLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RuthlessMerchantLauncher"
+        mc:Ignorable="d"
+        Title="Ruthless Merchant Launcher" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="79*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="KeyVisual.png"/>
+        </Grid.Background>
+        <Button x:Name="Start" Content="Start Ruthless Merchant" HorizontalAlignment="Center" VerticalAlignment="Center" Width="211" Height="48" Margin="490,257,10,114" Background="#A5DDDDDD" Grid.Column="1" Click="Start_Click"/>
+        <Button x:Name="StartVR" Content="Start Ruthless Merchant VR" HorizontalAlignment="Center" VerticalAlignment="Center" Width="211" Height="46" Margin="490,310,10,63" Background="#A5DDDDDD" Grid.Column="1" Click="StartVR_Click"/>
+        <Button x:Name="Quit" Content="Quit" HorizontalAlignment="Center" VerticalAlignment="Center" Width="211" Height="48" Margin="490,361,10,10" Background="#A5DDDDDD" Grid.Column="1" Click="Quit_Click"/>
+    </Grid>
+</Window>
